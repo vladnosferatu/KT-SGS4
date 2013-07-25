@@ -82,7 +82,7 @@
 
 #define	MAX_NUM_LEDS	3
 
-u8 LED_DYNAMIC_CURRENT = 0x8;
+u8 LED_DYNAMIC_CURRENT = 0x28;
 u8 LED_LOWPOWER_MODE = 0x0;
 
 static struct an30259_led_conf led_conf[] = {
